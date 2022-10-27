@@ -1,0 +1,62 @@
+
+#content-xv{
+    padding-top: 20px;
+    width: 70%;
+    margin-top: 50px;
+    background: #3aafa91c;
+    margin-left: auto;
+    margin-right: auto;
+}
+h5 a {
+    text-decoration: none;
+    color: #17252a;
+}
+.class1,
+.class2,
+.class3{
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: justify;
+}
+
+.list-content{
+    padding: 15px 40px;
+    background: #ffffff4d;
+}
+.main-content{
+    border: 1px solid #17252a;
+    margin: 25px;
+}
+
+.mau{
+    border: 1px solid #17252a;
+    margin: 25px 50px;
+    background-color: #ffffff4d;
+}
+
+.mau .mau-dau{
+    text-align: center;
+}
+
+.mau .mau-thongtin{
+    margin-top: 40px;
+    margin-left: 20px;
+
+}
+
+.mau .mau-noidung{
+    margin: 0 20px;
+}
+
+.mau .mau-cuoi{
+    text-align: right;
+    margin-right: 20px;
+}
+
+.mau .mau-cuoi .chuky{
+    padding-right: 50px;
+}
+img{
+    margin-bottom: 20px;
+}

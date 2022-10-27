@@ -1,0 +1,274 @@
+
+#conent-ntd{
+    background: #e7ffff96;
+}
+#slider-tuyendung {
+    position: relative;
+    width: 100%;
+    height: 330px;
+    background: url('/assets/IMG/NhaTuyenDungj.png') top center / cover no-repeat;
+    opacity: 0.9;
+}
+
+.slider-tuyendung-2{
+    width: 100%;
+    background-color: #3333337a;
+}
+.text-content{
+    width: 100%;
+}
+
+
+.text-content .text-par{
+    padding-top: 70px;
+    font-family: svn-timesnewroman2;
+    font-style: italic;
+    padding-left: 100px;
+    padding-right: 860px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 31px;
+    color: #feffff;
+}
+
+.list-content-ntd{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 13px;
+    
+}
+
+.list-content-ntd .row-content{
+    display: flex;
+    padding-top: 50px;
+    background: #ffffffba;
+    padding-bottom: 150px;
+    margin-top: -12px;
+
+}
+.row-content .col-content {
+    height: 324px;
+    display: -webkit-box;
+}
+
+.row-content .col-content .img-loiich {
+    height: 324px;
+}
+
+.row-content .col-content .content-loiich{
+    box-shadow: 0 0 5px rgb(0 0 0 / 50%);
+    height: 280px;
+    width: 60%;
+    background: #def2f17a;
+    padding-right: 20px;
+    padding-left: 30px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 75px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+.content-loiich p{
+    margin-left: 30px;
+    margin-top: -20px;
+}
+
+.img-loiich img{
+    height: 326px;
+    border: 1px solid #333;
+    width: 100%;
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+}
+
+.cachdangky{
+    display: flex;
+    padding-bottom: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 110px;
+    background: #def2f1;
+}
+
+.cachdangky .cacbuoc{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.cachdangky .cacbuoc p{
+    font-size: 19px;
+}
+
+.cachdangky img{
+    width: 330px;
+    height: 460px;
+    box-shadow: 0 0 30px rgb(0 0 0 / 50%);
+}
+
+.cachdangky .cacbuoc button{
+    padding: 3px 23px;
+    font-size: 20px;
+    margin-left: 55px;
+    border: 0.25px solid #3aafa9;
+    background: #Def2f1;
+}
+
+.price-list{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 40px;
+    background: #ffffffba;
+
+}
+
+.price-list .row-price{
+    display: flex;
+    margin-top: -10px;
+    margin-bottom: 60px;
+}
+
+.row-price .col-price{
+    border: 1px solid #333;
+}
+
+
+.row-price .col-price h5{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.row-price .col-price h4{
+    text-align: center;
+}
+.row-price .col-price .information{
+    margin-right: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.information i p{
+    margin-left: 30px;
+    margin-top: -16px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.col-img{
+    text-align: right;
+    padding-right: 30px;
+}
+
+.dangky{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-size: 19px;
+}
+
+.dangky button{
+    padding: 2px 15px;
+    border: 0.5px solid #3aafa9;
+    background-color: #f6fbfb;
+}
+
+button a{
+    text-decoration: none;
+    color: #17252a;
+}
+
+.cachdangky .cacbuoc button:hover{
+    background-color: #fff;
+    color: #333;
+}
+
+.dangky button:hover{
+    background-color: #def2f1;
+    color: #333;
+}
+
+
+.introduce{  
+    text-align: center;
+    width: auto;
+    padding: 0 124px;
+    height: 170px;
+    padding-top: 2%;
+}
+
+.introduce p{
+    font-size: 25px;
+}
+
+.introduce hr{
+    width: 40%;
+    border: 1px double #17252a;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (max-width: 843px){
+    .introduce{  
+        height: 210px;
+    }
+}
+
+@media (max-width: 718px){
+    .introduce{  
+        height: 270px;
+    }
+}
+
+@media (max-width: 845px){
+    .cachdangky{
+        display: block !important;
+    }
+    .col-img{
+        text-align: center;
+        width: 100% !important;
+        margin-bottom: 20px;
+    }
+    .cachdangky .cacbuoc{
+        width: 100%;
+        padding: 10px 140px;
+    }
+    .cachdangky .cacbuoc button{
+        margin-left: 100px;
+        margin-top: 10px;
+    }
+    .introduce{  
+        height: 220px;
+    }
+}
+
+@media (max-width: 1156px){
+    .text-content .text-par{
+        padding-right: 590px;
+        padding-left: 60px;
+    }
+}
+
+@media (max-width: 1023px){
+    .list-content-ntd .row-content{
+        display: block;
+    
+    }
+    .row-content .col-content {
+        width: 100%;
+        margin: 50px 0;
+    }
+    .cachdangky{
+        display: flex;
+        padding-bottom: 50px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 110px;
+        background: #def2f1;
+    }
+    
+    /* #header-element{
+        display: none;
+    } */
+}

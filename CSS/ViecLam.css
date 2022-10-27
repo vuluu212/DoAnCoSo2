@@ -1,0 +1,220 @@
+#content-vieclam{
+    margin-top: 50px;
+}
+
+#content-vieclam .search{
+    padding: 0 10%;
+    width: 100%;
+    height: 85px;
+    background: #def2f1;
+
+}
+
+#input-search{
+    box-sizing: border-box;
+    width: 300px;
+    height: 40px;
+}
+
+#list-search {
+    list-style-type: none;
+    display: none;
+    padding: 0;
+    margin-top: 1px;
+    height:200px;
+    overflow: auto;
+    z-index: 100;
+    position: absolute;
+    background-color: #fff;
+  }
+
+ #list-search li {
+    width: 300px;
+  }
+
+ #list-search li a {
+    padding: 12px;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    font-weight: 500;
+    color: black;
+  }
+
+#list-search li:hover {
+    background-color:#ccc;
+    color:rgb(240, 166, 8);
+
+}
+
+.search-ip{
+    padding-top: 20px;
+}
+
+.search-ip button{
+    border: 0.5px solid;
+    width: 40px;
+    background: #feffff;
+    height: 40px;
+}
+
+.bar-title{
+    width: 100%;
+    height: 45px;
+    background-color: #2b7a78;
+    padding: 0;
+}
+
+.bar-title .heading-title{
+    line-height: 45px;
+}
+
+.item-job{
+    width: 100%;
+    /* background-color: #def2f1; */
+}
+.item-job .item img{
+    width: 118px;
+    height: 118px;
+    margin-left: 7px;
+}
+.item-job .item{
+    height: 120px;
+    border: 0.5px solid #2b7a774c;
+    background-color: #def2f1;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+
+.item-job .item .item-information{
+    width: 75%;
+    height: 100%;
+    display: inline-block;
+    margin-left: 140px;
+    margin-top: -130px;
+}
+
+
+.item-information ul{
+    list-style-type: none;
+    padding: 0;
+    padding-top: 2px;
+    margin-top: 10px;
+}
+.item-information ul li a{
+    text-decoration: none;
+    
+    color: black;
+}
+
+.item-information ul li .container{
+    float: left;
+    display: inline-flex;
+}
+
+.company-name{
+    margin-top: 10px;
+    height: 25%;
+}
+
+.icon-bookmark{
+        width: 30px;
+        height: 30px;
+        float: right;
+        margin-top: -116px;
+        background-color: #def2f1;
+}
+
+.icon-bookmark button{
+    border: 0px;
+    margin-top: 5px;
+}
+
+.icon-bookmark button i{
+    font-size: 20px;
+    background: rgb(222 242 241);
+    color: #2b7a78;
+}
+.company-infomation{
+    height: 30%;  
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.company-infomation a{
+    color: #3aafa9 !important;
+}
+
+.company-infomation:hover{
+    color:#070707;
+}
+
+.container .icon{
+    font-size: 15px;
+    margin-right: 1px;
+}
+
+ul li a h4{
+    font-weight: 400;
+    font-size: 18px;
+    color: #17252a;
+}
+
+.list-button{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.button-more{
+    padding: 0 15px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-left: 11px;
+    margin-right: 11px;
+    border: 0.5px solid #2b7a774c;
+}
+
+.list-button a{
+    text-decoration: none;
+    color:#2b7a78;
+    border-radius: 4px;
+}
+
+.list-button a:hover{
+    color: #feffff;
+    background-color: #2b7a78;
+}
+
+.container li a span{
+    color: #2b7a78;
+}
+
+.icon-bookmark button i:hover{
+    color: #17252a; 
+    padding: 0 4px;
+}
+
+
+
+.link_tab{
+    height: 50px;
+    padding: 15px 0;
+}
+
+.icon_link_tab{
+    font-size: 12px;
+    padding: 0 5px;
+}
+
+.link_tab_ul{
+    padding: 0;
+}
+
+.link_tab_li{
+    display: inline-block;
+}
+
+.link_tab_a{
+    text-decoration: none;
+    color: #18252a;
+}
+

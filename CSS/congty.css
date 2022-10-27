@@ -1,0 +1,320 @@
+#content-vieclam{
+    margin-top: 50px;
+}
+
+#content-vieclam .search{
+    padding: 0 10%;
+    width: 100%;
+    height: 200px;
+    background: #def2f1;
+
+}
+
+#input-search{
+    box-sizing: border-box;
+    width: 300px;
+    height: 40px;
+}
+
+#list-search {
+    list-style-type: none;
+    display: none;
+    padding: 0;
+    margin-top: 1px;
+    height:200px;
+    overflow: auto;
+    z-index: 100;
+    position: absolute;
+    background-color: #fff;
+  }
+
+ #list-search li {
+    width: 300px;
+  }
+
+ #list-search li a {
+    padding: 12px;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    font-weight: 500;
+    color: black;
+  }
+
+#list-search li:hover {
+    background-color:#ccc;
+    color:rgb(240, 166, 8);
+
+}
+
+.search-ip{
+    padding-top: 20px;
+}
+
+.search-ip button{
+    border: 0.5px solid;
+    width: 40px;
+    background: #feffff;
+    height: 40px;
+}
+
+.bar-title{
+    width: 81%;
+    height: 45px;
+    background-color: #2b7a78;
+    padding: 0;
+    margin: 0 10%;
+}
+
+.bar-title .heading-title{
+    line-height: 45px;
+}
+
+.item-job{
+    width: 81%;
+    margin: 0 10%;
+    padding-bottom: 20px;
+    background-color: #def2f1;
+}
+.item-job .item img{
+    width: 178px;
+    height: 208px;
+    margin-left: 7px;
+}
+.item-job .item{
+    display: flex;
+    height: 210px;
+    border-bottom: 0.5px solid #2b7a774c;
+    border-top: 0.5px solid #2b7a774c;
+    margin-bottom: 5px;
+}
+
+.item-job .item .item-information{
+    width: 75%;
+    height: 100%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+.item-information ul{
+    list-style-type: none;
+    padding: 0;
+    padding-top: 2px;
+    margin-top: 10px;
+}
+.item-information ul li a{
+    text-decoration: none;
+    
+    color: black;
+}
+
+.item-information ul li .container{
+    float: left;
+    display: inline-flex;
+}
+
+.company-name{
+    height: 20%;
+}
+
+.icon-bookmark{
+        width: 30px;
+        height: 30px;
+        float: right;
+        margin-top: -130px;
+        background-color: #def2f1;
+}
+
+.icon-bookmark button{
+    border: 0px;
+    margin-top: 5px;
+}
+
+.icon-bookmark button i{
+    font-size: 20px;
+    background: rgb(222 242 241);
+    color: #2b7a78;
+}
+.company-infomation{
+    height: 15%;  
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.company-infomation a{
+    color: #3aafa9 !important;
+}
+
+.company-infomation:hover{
+    color:#070707;
+}
+
+.container .icon{
+    font-size: 15px;
+    margin-right: 1px;
+}
+
+.ungtuyen{
+    margin-top: 10px;
+    padding: 1px 10px;
+    background: #fff;
+    border: 0.5px solid #c9d4c8;
+}
+
+.ungtuyen a{
+    text-decoration: none;
+    color: #000;
+}
+
+.ungtuyen:hover {
+    background-color: #4188865c;;
+    color: #000;
+}
+
+ul li a h4{
+    font-weight: 400;
+    font-size: 18px;
+    color: #17252a;
+}
+
+.list-button{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.button-more{
+    padding: 0 15px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-left: 11px;
+    margin-right: 11px;
+    border: 0.5px solid #2b7a774c;
+}
+
+
+.list-button a{
+    text-decoration: none;
+    color:#2b7a78;
+}
+
+.list-button a:hover{
+    color: #feffff;
+    background-color: #2b7a78;
+}
+
+.container li a span{
+    color: #2b7a78;
+}
+
+.icon-bookmark button i:hover{
+    color: #17252a;
+}
+
+.Thongtin{
+    padding-left: 200px;
+    padding-right: 70px;
+}
+
+.Thongtin hr{
+    margin-top: 5px;
+    width: 150px;
+    color: #418886;
+    border: 1px solid #418886;
+}
+
+.Thongtin h4{
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.Thongtin ul{
+    margin-left: 30px;
+}
+
+.Thongtin ul li {
+    list-style-type: circle;
+    padding-left: 5px;
+
+}
+
+.Motacongviec{
+    padding-left: 200px;
+    padding-right: 70px;
+}
+
+.Motacongviec h4{
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.Motacongviec ul{
+    margin-left: 30px;
+}
+
+.Motacongviec ul li{
+    list-style-type: circle;
+    padding-left: 5px;
+}
+
+.Motacongviec hr{
+    margin-top: 5px;
+    width: 220px;
+    color: #418886;
+    border: 1px solid #418886;
+}
+
+
+.Quyenloiduochuong{
+    padding-left: 200px;
+    padding-right: 70px;
+}
+
+.Quyenloiduochuong h4{
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.Quyenloiduochuong ul{
+    margin-left: 30px;
+}
+
+.Quyenloiduochuong ul li{
+    list-style-type: circle;
+    padding-left: 5px;
+}
+
+.Quyenloiduochuong hr{
+    margin-top: 5px;
+    width: 300px;
+    color: #418886;
+    border: 1px solid #418886;
+}
+.yeucaucongviec{
+    padding-left: 200px;
+    padding-right: 70px;
+}
+
+.yeucaucongviec h4{
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.yeucaucongviec ul{
+    margin-left: 30px;
+}
+
+.yeucaucongviec ul li{
+    list-style-type: circle;
+    padding-left: 5px;
+}
+
+.yeucaucongviec hr{
+    margin-top: 5px;
+    width: 240px;
+    color: #418886;
+    border: 1px solid #418886;
+}

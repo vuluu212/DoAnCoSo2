@@ -1,0 +1,291 @@
+#registration-container{
+    padding-top: 50px;
+    width: 100%;
+    height: auto;
+}
+
+#registration-container .registration-headding{
+    width: 80%;
+    background-color: rgba(254, 254, 254, 0.474);
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    box-shadow: 0 10px 10px rgb(0 0 0 / 30%);
+}
+
+.khung-registrantion{
+    background: #def2f1;
+    padding: 19px;
+    margin: 0 32px;
+    margin-top: -40px;
+    
+}
+.registration-headding .registration-list{
+    padding-bottom: 27px;
+}
+
+.registration-headding .registration-list ul{
+    list-style-type: none;
+    margin-right: 32px;
+}
+
+.registration-list .registration-icon{
+    font-size: 70px;
+    /* background-color: #a2d0eb;
+    color: black;
+    border-radius: 999px; */
+}
+
+.tp-danang{
+    background: #41888612;
+    padding: 40px;
+    border-radius: 3px;
+}
+
+
+.icon{
+    margin-right: 5px;
+}
+
+.sdt{
+    margin-left: 110px;
+    margin-top: -40px;
+}
+
+.email{
+    margin-left: 110px;
+    margin-top: -40px;
+}
+
+.diachi{
+    margin-left: 110px;
+    margin-top: -40px;
+}
+
+.registration-list ul li .information{
+    padding-left: 100px;
+    margin-top: -70px;
+}
+
+.khung-information{
+    padding: 20px;
+}
+.khoangcach{ 
+    padding: 50px 0;
+}
+
+.registration-main{
+    padding: 32px;
+}
+
+.registration-main p a{
+    text-decoration: none;
+    color: #2b7a78
+}
+
+.color-registration1{
+    background-color: #def2f1 ;
+}
+
+.color-registration2{
+    background: #3aafa97a;
+}
+
+.registration-label{
+    padding-bottom: 10px;
+    color: #17252a;
+}
+
+.registration-main hr{
+    margin: 0;
+    margin-top: -10px;
+    margin-bottom: 30px;
+    width: 43%;
+    border: 1px solid #418886;
+}
+
+
+.registration-list .label1{
+    padding-right: 15px;
+}
+.registration-list .label2{
+    padding-right: 10px;
+}
+.registration-list .label3{
+    padding-right: 44px;
+}
+.registration-list .label4{
+    padding-right: 16px;
+}
+
+.registration-list .label5{
+    padding-right: 17px;
+}
+
+.registration-input{
+    margin-bottom: 22px;
+    width: 100%;
+    background: #def2f1;
+    border: none;
+    padding: 8px;
+    border-bottom: 1px solid #17252a ;
+    font-size: 15px;
+
+}
+
+.registration-list .registration-sign-up{
+    width: 100%;
+    height: 6%;
+    line-height: 39px;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 15%;
+}
+
+.registration-list .registration-sign-up ul li{
+    text-align: center;
+    float: left;
+}
+
+.registration-list .registration-sign-up ul li a{
+    display: block;
+    text-decoration: none;
+    line-height: 50px;
+    color: #17252a;
+}
+.registration-list .registration-sign-up ul hr{
+    width: 50%;
+    padding: 0 40%;
+    margin: 0 10%;
+}
+/* .registration-list .registration-sign-up ul li a:hover{
+    background-color: #1952d9;
+} */
+
+.registration-list .registration-fb-gg p{
+    text-align: center;
+    font-size: 16px;
+}
+
+.registration-list .registration-fb-gg ul{
+    padding: 0;
+}
+
+.registration-list .registration-fb-gg ul li{
+    float: left;
+    text-align: center;
+    line-height: 45px;
+}
+
+.registration-list .registration-fb-gg ul li a{
+    text-decoration: none;
+    color: #2b7a78;
+    font-size: 20px;
+}
+
+.registration-fb-gg  ul .fb:hover a{
+    /* background-color: #0071f8; */
+    color: #0071f8;
+}
+
+.registration-fb-gg  ul .gg:hover a{
+    /* background-color: #0071f8; */
+    color: #da3131;
+}
+
+.registration-fb-icon{
+    font-size: 26px;
+    color: #0071f8;
+}
+
+.registration-gg-icon{
+    font-size: 26px;
+    color: #da3131;
+}
+
+
+.registration-list .registration-or{
+    width: 100%;
+    text-align: center;
+    font-size: 17px;
+}
+
+/* .registration-list .registration-or::before{
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    z-index: -1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    height: 1px;
+    transform: translate(-50%, -50%);
+    background: #e9e9e9;
+    content: "";
+} */
+
+.registration-agree {
+    padding: 0 32px;
+    margin-top: -30px;
+}
+
+.registration-agree .agree-information {
+    padding-left: 20px;
+    margin-top: -24px;
+}
+
+.registration-tick{
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+}
+
+.registration-tick .registration{
+    width: 40%;
+    background: #def2f1;
+    border: none;
+    cursor: pointer;
+}
+
+.registration-tick .registration:hover {
+    opacity: 0.8;
+}
+
+.chuyenkhoan{
+    padding: 10px;
+    background: #fff;
+    margin-top: 20px;
+}
+
+.chuyenkhoan .the{
+
+}
+
+.chuyenkhoan.vidu{
+
+}
+
+.col-md-4 img{
+    width: 100%;
+}
+
+.thongtinTK{
+    
+}
+.thongtinTK p{
+
+}
+
+
+.thongtinTK .element-tk{
+
+}
+
+.thongtinTK .element-tk p{ 
+    margin-left: 115px;
+    margin-top: -40px;
+}

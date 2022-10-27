@@ -1,0 +1,235 @@
+#content-vieclam{
+    margin-top: 50px;
+}
+
+#content-vieclam .search{
+    padding: 0 10%;
+    width: 100%;
+    height: 200px;
+    background: #def2f1;
+
+}
+
+#input-search{
+    box-sizing: border-box;
+    width: 300px;
+    height: 40px;
+}
+
+#list-search {
+    list-style-type: none;
+    display: none;
+    padding: 0;
+    margin-top: 1px;
+    height:200px;
+    overflow: auto;
+    z-index: 100;
+    position: absolute;
+    background-color: #fff;
+  }
+
+ #list-search li {
+    width: 300px;
+  }
+
+ #list-search li a {
+    padding: 12px;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    font-weight: 500;
+    color: black;
+  }
+
+#list-search li:hover {
+    background-color:#ccc;
+    color:rgb(240, 166, 8);
+
+}
+
+.search-ip{
+    padding-top: 20px;
+}
+
+.search-ip button{
+    border: 0.5px solid;
+    width: 40px;
+    background: #feffff;
+    height: 40px;
+}
+
+.bar-title{
+    width: 100%;
+    height: 45px;
+    background-color: #2b7a78;
+    padding: 0;
+}
+
+.bar-title .heading-title{
+    line-height: 45px;
+}
+
+.item-job{
+    width: 100%;
+}
+.item-job .item .item-img{
+    height: 198px;
+}
+
+.item-img img{
+    width: 170px;
+    height: 180px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.item-job .item{
+    height: 200px;
+    border: 0.5px solid #2b7a774c;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    display: flex;
+    background-color: #def2f1;
+}
+
+
+.item-job .item .item-information{
+    margin-left: 10px;
+}
+
+
+.item-information ul{
+    list-style-type: none;
+    padding: 0;
+    margin-left: 20px;
+}
+.item-information ul li a{
+    text-decoration: none;
+    
+    color: black;
+}
+
+.item-information ul li .container{
+    float: left;    
+    margin-top: 0;
+    margin-bottom: 5px;
+    display: inline-flex;
+    margin: 0;
+}
+.item-information ul li{
+    margin-bottom: 10px;
+    font-size: 17px;
+
+}
+
+.icon-bookmark{
+        width: 30px;
+        height: 30px;
+        float: right;
+        margin-top: -116px;
+        background-color: #def2f1;
+}
+
+.icon-bookmark button{
+    border: 0px;
+    margin-top: 5px;
+}
+
+.icon-bookmark button i{
+    font-size: 20px;
+    background: rgb(222 242 241);
+    color: #2b7a78;
+}
+.company-infomation{
+    height: 30%;  
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.company-infomation a{
+    color: #3aafa9 !important;
+}
+
+.company-infomation:hover{
+    color:#070707;
+}
+
+.container .icon{
+    font-size: 15px;
+}
+
+ul li a h4{
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0;
+    color: #17252a;
+    padding-top: 10px;
+}
+
+.list-button{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.button-more{
+    padding: 0 15px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    margin-left: 11px;
+    margin-right: 11px;
+    border: 0.5px solid #2b7a774c;
+}
+
+.list-button a{
+    text-decoration: none;
+    color:#000;
+    border-radius: 4px;
+}
+
+.list-button a:hover{
+    color: #feffff;
+    background-color: #2b7a78;
+}
+
+.container li a span{
+    color: #2b7a78;
+}
+
+.icon-bookmark button i:hover{
+    color: #17252a;
+}
+
+li .icon{
+    margin-right: 10px;
+}
+
+
+.price{
+    text-align: center;
+    height: 100%;
+    padding: 70px 30px;
+}
+
+
+
+.link_tab{
+    height: 50px;
+    padding: 15px 0;
+}
+
+.icon_link_tab{
+    font-size: 12px;
+    padding: 0 5px;
+}
+
+.link_tab_ul{
+    padding: 0;
+}
+
+.link_tab_li{
+    display: inline-block;
+}
+
+.link_tab_a{
+    text-decoration: none;
+    color: #18252a;
+}
